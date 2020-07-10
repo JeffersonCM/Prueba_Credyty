@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Credyty.Aplication.DTO\Credyty.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\Credyty.Aplication.Interfaces\Credyty.Aplication.Interfaces.csproj" />
+    <ProjectReference Include="..\Credyty.Domain.Entities\Credyty.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Credyty.Domain.Interfaces\Credyty.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Credyty.Infraestructure.Interfaces\Credyty.Infraestructure.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

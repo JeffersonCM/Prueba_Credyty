@@ -4,5 +4,26 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\Prueba_Credity\Credyty\Credyty.Services.API\Credyty.Services.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Credyty.Aplication.Implementation\Credyty.Aplication.Implementation.csproj" />
+    <ProjectReference Include="..\Credyty.Domain.Implementation\Credyty.Domain.Implementation.csproj" />
+    <ProjectReference Include="..\Credyty.Infraestructure.DataAccess\Credyty.Infraestructure.DataAccess.csproj" />
+    <ProjectReference Include="..\Credyty.Infraestructure.Repositories\Credyty.Infraestructure.Repositories.csproj" />
+    <ProjectReference Include="..\Credyty.Transversal.Mapper\Credyty.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
 
 </Project>

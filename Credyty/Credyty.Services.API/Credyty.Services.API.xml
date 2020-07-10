@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Credyty.Services.API</name>
+    </assembly>
+    <members>
+        <member name="T:Credyty.Services.API.Controllers.CreditRequestController">
+            <summary>
+            CreditRequestController
+            </summary>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.#ctor(Credyty.Aplication.Interfaces.ICreditRequestAplication)">
+            <summary>
+            Builder
+            </summary>
+            <param name="creditRequestAplication"></param>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.Insert(Credyty.Aplication.DTO.CreateRequestCreditDTO)">
+            <summary>
+            Insert
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.Update(Credyty.Aplication.DTO.ModifyRequestCreditDTO)">
+            <summary>
+            Update
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.Delete(Credyty.Aplication.DTO.DeleteDTO)">
+            <summary>
+            Delete
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.All">
+            <summary>
+            List all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.CreditRequestController.List(System.Int32)">
+            <summary>
+            List
+            </summary>
+            <param name="personID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Credyty.Services.API.Controllers.GeneralDataController">
+            <summary>
+            GeneralDataController
+            </summary>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.GeneralDataController.#ctor(Credyty.Aplication.Interfaces.IGeneralDataAplication)">
+            <summary>
+            Builder
+            </summary>
+            <param name="generalDataAplication"></param>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.GeneralDataController.All_GeneralData">
+            <summary>
+            All_GeneralData
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.GeneralDataController.List_GeneralData(System.Int32)">
+            <summary>
+            List_GeneralData
+            </summary>
+            <param name="generalDataID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.GeneralDataController.List_GeneralDataDetails(System.Int32)">
+            <summary>
+            List_GeneralDataDetails
+            </summary>
+            <param name="generalDataID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Credyty.Services.API.Controllers.PersonController">
+            <summary>
+            PersonController
+            </summary>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.#ctor(Credyty.Aplication.Interfaces.IPersonAplication)">
+            <summary>
+            Builder
+            </summary>
+            <param name="personAplication"></param>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.Insert(Credyty.Aplication.DTO.CreatePersonDTO)">
+            <summary>
+            Insert
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.Update(Credyty.Aplication.DTO.ModifyPersonDTO)">
+            <summary>
+            Update
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.Delete(Credyty.Aplication.DTO.DeleteDTO)">
+            <summary>
+            Delete
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.All">
+            <summary>
+            List all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Credyty.Services.API.Controllers.PersonController.List(System.Int32)">
+            <summary>
+            List
+            </summary>
+            <param name="personID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Credyty.Services.API.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Credyty.Services.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Builder
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Credyty.Services.API.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:Credyty.Services.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Credyty.Services.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
