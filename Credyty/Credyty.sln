@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Aplication.DTO", "Credyty.Aplication.DTO\Credyty.Aplication.DTO.csproj", "{A416E37F-F37F-4BF4-B3E2-E097C174AC46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{5528B7EC-D22F-4EF9-A98B-3368B1D44AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{20854B98-3694-4CE4-93D9-3027797406D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{945F61EB-40C4-49B2-B437-96C19690787C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0C0F367A-1190-4D33-8907-2F97FB74D11B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{ACE9A595-F142-4B4C-9084-F99823CD5784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Aplication.Implementation", "Credyty.Aplication.Implementation\Credyty.Aplication.Implementation.csproj", "{A926D5DB-6742-4355-BFE6-8D662EC0E9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Aplication.Interfaces", "Credyty.Aplication.Interfaces\Credyty.Aplication.Interfaces.csproj", "{1A8556E8-750E-48F7-BDAA-00772C81EFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Domain.Entities", "Credyty.Domain.Entities\Credyty.Domain.Entities.csproj", "{A8FC361A-BE96-4DAF-B63F-AB395696D039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Domain.Interfaces", "Credyty.Domain.Interfaces\Credyty.Domain.Interfaces.csproj", "{A6B706AE-5322-44D7-BD0D-130754107A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Domain.Implementation", "Credyty.Domain.Implementation\Credyty.Domain.Implementation.csproj", "{96793F62-C12D-4431-A35B-E3DDB15BF77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Infraestructure.DataAccess", "Credyty.Infraestructure.DataAccess\Credyty.Infraestructure.DataAccess.csproj", "{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Infraestructure.Repositories", "Credyty.Infraestructure.Repositories\Credyty.Infraestructure.Repositories.csproj", "{76B94E31-84BD-443F-8A55-ACFE9D32820A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Infraestructure.Interfaces", "Credyty.Infraestructure.Interfaces\Credyty.Infraestructure.Interfaces.csproj", "{B0534500-7D0C-44F8-9B90-BC4E61066577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Transversal.Common", "Credyty.Transversal.Common\Credyty.Transversal.Common.csproj", "{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Transversal.Interfaces", "Credyty.Transversal.Interfaces\Credyty.Transversal.Interfaces.csproj", "{DC017035-7413-4F7D-B61C-0E8814A6F05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Transversal.Mapper", "Credyty.Transversal.Mapper\Credyty.Transversal.Mapper.csproj", "{5B0AB551-9134-4A5D-A015-C87B5FA2A821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credyty.Services.API", "Credyty.Services.API\Credyty.Services.API.csproj", "{F34C3C17-8923-4B16-9880-5F6F20942433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A416E37F-F37F-4BF4-B3E2-E097C174AC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A416E37F-F37F-4BF4-B3E2-E097C174AC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A416E37F-F37F-4BF4-B3E2-E097C174AC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A416E37F-F37F-4BF4-B3E2-E097C174AC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A926D5DB-6742-4355-BFE6-8D662EC0E9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926D5DB-6742-4355-BFE6-8D662EC0E9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A926D5DB-6742-4355-BFE6-8D662EC0E9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A926D5DB-6742-4355-BFE6-8D662EC0E9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8556E8-750E-48F7-BDAA-00772C81EFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8556E8-750E-48F7-BDAA-00772C81EFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8556E8-750E-48F7-BDAA-00772C81EFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8556E8-750E-48F7-BDAA-00772C81EFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FC361A-BE96-4DAF-B63F-AB395696D039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FC361A-BE96-4DAF-B63F-AB395696D039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FC361A-BE96-4DAF-B63F-AB395696D039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FC361A-BE96-4DAF-B63F-AB395696D039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B706AE-5322-44D7-BD0D-130754107A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B706AE-5322-44D7-BD0D-130754107A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B706AE-5322-44D7-BD0D-130754107A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B706AE-5322-44D7-BD0D-130754107A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96793F62-C12D-4431-A35B-E3DDB15BF77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96793F62-C12D-4431-A35B-E3DDB15BF77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96793F62-C12D-4431-A35B-E3DDB15BF77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96793F62-C12D-4431-A35B-E3DDB15BF77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B94E31-84BD-443F-8A55-ACFE9D32820A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B94E31-84BD-443F-8A55-ACFE9D32820A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B94E31-84BD-443F-8A55-ACFE9D32820A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B94E31-84BD-443F-8A55-ACFE9D32820A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0534500-7D0C-44F8-9B90-BC4E61066577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0534500-7D0C-44F8-9B90-BC4E61066577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0534500-7D0C-44F8-9B90-BC4E61066577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0534500-7D0C-44F8-9B90-BC4E61066577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC017035-7413-4F7D-B61C-0E8814A6F05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC017035-7413-4F7D-B61C-0E8814A6F05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC017035-7413-4F7D-B61C-0E8814A6F05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC017035-7413-4F7D-B61C-0E8814A6F05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0AB551-9134-4A5D-A015-C87B5FA2A821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0AB551-9134-4A5D-A015-C87B5FA2A821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0AB551-9134-4A5D-A015-C87B5FA2A821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0AB551-9134-4A5D-A015-C87B5FA2A821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34C3C17-8923-4B16-9880-5F6F20942433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34C3C17-8923-4B16-9880-5F6F20942433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34C3C17-8923-4B16-9880-5F6F20942433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34C3C17-8923-4B16-9880-5F6F20942433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A416E37F-F37F-4BF4-B3E2-E097C174AC46} = {5528B7EC-D22F-4EF9-A98B-3368B1D44AB5}
+		{A926D5DB-6742-4355-BFE6-8D662EC0E9A1} = {5528B7EC-D22F-4EF9-A98B-3368B1D44AB5}
+		{1A8556E8-750E-48F7-BDAA-00772C81EFE9} = {5528B7EC-D22F-4EF9-A98B-3368B1D44AB5}
+		{A8FC361A-BE96-4DAF-B63F-AB395696D039} = {20854B98-3694-4CE4-93D9-3027797406D9}
+		{A6B706AE-5322-44D7-BD0D-130754107A3E} = {20854B98-3694-4CE4-93D9-3027797406D9}
+		{96793F62-C12D-4431-A35B-E3DDB15BF77C} = {20854B98-3694-4CE4-93D9-3027797406D9}
+		{76B5C5E3-D07E-4B7C-8E6A-4D626161ACFE} = {945F61EB-40C4-49B2-B437-96C19690787C}
+		{76B94E31-84BD-443F-8A55-ACFE9D32820A} = {945F61EB-40C4-49B2-B437-96C19690787C}
+		{B0534500-7D0C-44F8-9B90-BC4E61066577} = {945F61EB-40C4-49B2-B437-96C19690787C}
+		{8ADEEA77-9FBB-4921-9B0A-E2452CAA94E6} = {ACE9A595-F142-4B4C-9084-F99823CD5784}
+		{DC017035-7413-4F7D-B61C-0E8814A6F05C} = {ACE9A595-F142-4B4C-9084-F99823CD5784}
+		{5B0AB551-9134-4A5D-A015-C87B5FA2A821} = {ACE9A595-F142-4B4C-9084-F99823CD5784}
+		{F34C3C17-8923-4B16-9880-5F6F20942433} = {0C0F367A-1190-4D33-8907-2F97FB74D11B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1001FF9-3F65-4033-B8CF-45DF6B489DFB}
+	EndGlobalSection
+EndGlobal
